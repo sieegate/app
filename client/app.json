@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "siee-gate-test",
+    "slug": "siee-gate-test",
+    "orientation": "portrait",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
